@@ -1,8 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Custom ChatGPT is a demo Landing Page with an integrated Chat component, that connects with [OpenAI](https://openai.com/).
+
+## Tech Stack Used
+- [Next.js](https://nextjs.org/) bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app);
+- [TailwindCSS](https://tailwindcss.com/)
+- [OpenAI](https://openai.com/) for chatbot
+- [React](https://react.dev/) with hooks, Context API
+- [react-query](https://www.npmjs.com/package/@tanstack/react-query)
+- [shadcn/ui](https://ui.shadcn.com/) for Components
 
 ## Getting Started
 
-First, run the development server:
+After cloning the repository:
+- create your `.env` file with a `OPENAI_API_KEY` to be able to access the OpenAI/ChatGPT
+
+- run the development server:
 
 ```bash
 npm run dev
@@ -12,9 +23,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
